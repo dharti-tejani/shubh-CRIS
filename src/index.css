@@ -65,6 +65,9 @@ img {
 /*********************  Default-CSS close  *********************/
 
 /********************  Header Css Start  *********************/
+.header_wrapper_main{
+  position: relative;
+}
 .main_wrapper {
   overflow: hidden;
 }

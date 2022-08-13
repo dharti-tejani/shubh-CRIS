@@ -6,15 +6,13 @@ import { NavLink } from "react-router-dom";
 const Error_page = () => {
     return (
         <>
-            <Header />
-                <div className='error_page'>
-                    <h1>oops!</h1>
-                    <h3>404 - PAGE NOT FOUND</h3>
-                    <div className='web_btn'>
-                        <NavLink to="/">GO TO HOMEPAGE</NavLink>
-                    </div>
+            <div className='error_page'>
+                <h1>oops!</h1>
+                <h3>404 - PAGE NOT FOUND</h3>
+                <div className='web_btn'>
+                    <NavLink to="/">GO TO HOMEPAGE</NavLink>
                 </div>
-            <Footer />
+            </div>
         </>
     )
 }
